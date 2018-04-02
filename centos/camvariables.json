@@ -1,0 +1,62 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [ ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "centos_domain",
+      "label": "Centos Domain",
+      "description": "The domain for the computing instance.",
+      "type": "string",
+      "default": "cam.ibm.com",
+      "validation": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "centos_hostname",
+      "label": "Centos Hostname",
+      "description": "The hostname for the computing instance.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "centos_datacenter",
+      "label": "Centos Datacenter",
+      "description": "The datacenter in which you want to provision the instance. NOTE: If dedicated_host_name or dedicated_host_id is provided then the datacenter should be same as the dedicated host datacenter.",
+      "type": "string",
+      "default": "dal09",
+      "validation": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "centos_os_reference_code",
+      "label": "Centos Os Reference Code",
+      "description": "Generated",
+      "type": "string",
+      "default": "CENTOS_7_64",
+      "validation": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
