@@ -49,7 +49,7 @@
       "label": "Nodejs Os Reference Code",
       "description": "Generated",
       "type": "string",
-      "default": "CENTOS-7-64",
+      "default": "CENTOS_7_64",
       "validation": "",
       "required": true,
       "secured": false,
