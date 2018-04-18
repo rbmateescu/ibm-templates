@@ -16,10 +16,6 @@ resource "null_resource" "environment" {
   }
 
   provisioner "local-exec" {
-    command = "`bx cs cluster-config --export ${var.cluster_name}`"
-  }
-
-  provisioner "local-exec" {
-    command = "helm init "
+    command = "`bx cs cluster-config --export ${var.cluster_name}` && helm init"
   }
 }
