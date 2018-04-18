@@ -1,0 +1,21 @@
+{
+    "name": "Environment",
+    "description": "Environment",
+    "type": "integrations",
+    "version": "1.0",
+    "manifest": {
+      "template_type": "Terraform",
+      "template_format": "HCL",
+      "template_provider": "IBM"
+    },
+    "template_source": {
+        "githubRepoUrl": "",
+        "githubAccessToken": "",
+        "relativePathToTemplateFolder": "",
+        "templateFileName": "main.tf"
+    },
+      "metadata": {
+        "displayName": "Environment",
+        "longDescription": "Environment"
+    }
+  }
