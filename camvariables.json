@@ -1,0 +1,21 @@
+{
+    "input_datatypes": [
+        {
+          "name": "ics_cluster",
+          "label": "ICS Cluster"
+        }
+      ],
+      "template_input_params": [
+        {
+            "name": "cluster_name",
+            "type": "string",
+            "description": "ICS cluster name.",
+            "hidden": false,
+            "label": "Cluster Name",
+            "secured": false,
+            "required": true,
+            "immutable": false,
+            "default": "${ics_cluster.cluster_name}"
+        }
+    ]
+}

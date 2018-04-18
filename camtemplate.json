@@ -1,6 +1,6 @@
 {
-    "name": "Environment",
-    "description": "Environment",
+    "name": "HelmTiller",
+    "description": "Deploy Helm Tiller in ICS",
     "type": "integrations",
     "version": "1.0",
     "manifest": {
@@ -15,7 +15,7 @@
         "templateFileName": "main.tf"
     },
       "metadata": {
-        "displayName": "Environment",
-        "longDescription": "Environment"
+        "displayName": "HelmTiller",
+        "longDescription": "Deploy Helm Tiller in ICS"
     }
   }
